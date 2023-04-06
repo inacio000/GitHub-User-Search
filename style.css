@@ -90,7 +90,7 @@ main section .card {
 main section .card #profile-pic {
     width: 128px;
     border-radius: 50%;
-    border: 2px solid #00FF00;
+    border: 3px solid var(--letter-color);
 }
 
 .card .userInfo {
