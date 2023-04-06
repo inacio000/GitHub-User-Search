@@ -62,14 +62,14 @@ const getRepos = async(username) => {
     });
 }
 
-// form.addEventListener("submit", function(e) {
-//     e.preventDefault()
-//     const inputValue = document.querySelector("#searchUser").value
-//     const originalName = inputValue.split(' ').join('')
-//     fetch(url + originalName)
-//         .then(getUser(inputValue))
-//         .catch(error => console.error(error))
-// })
+form.addEventListener("submit", function(e) {
+    e.preventDefault()
+    const inputValue = document.querySelector("#searchUser").value
+    const originalName = inputValue.split(' ').join('')
+    fetch(url + originalName)
+        .then(getUser(inputValue))
+        .catch(error => console.error(error))
+})
 
 
-getUser("abouba03")
+// getUser("abouba03")
