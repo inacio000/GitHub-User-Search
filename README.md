@@ -11,4 +11,4 @@
 > * Git & Github
 > * Fetch Api
 
-### [🔗Click here to view live](https://inacio000.github.io/Dev-Links/)
+### [🔗Click here to view live](https://inacio000.github.io/GitHub-User-Search/)
