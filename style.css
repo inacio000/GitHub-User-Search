@@ -21,7 +21,19 @@ a {
 }
 
 button {
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    opacity: .7;
+    color: white;
     cursor: pointer;
+    transition: all .4s;
+    background-color: var(--letter-color);
+}
+
+button:hover {
+    opacity: 1;
 }
 
 body {
@@ -53,8 +65,10 @@ main form {
     text-align: center;
 }
 
-main form label {
-    font-size: 18px;
+form label {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
 
 main form input {
@@ -68,15 +82,6 @@ main form input {
 
 main form input::placeholder {
     opacity: 0.7;
-}
-
-main form button {
-    width: 220px;
-    height: 30px;
-    border: none;
-    border-radius: 10px;
-    background-color: var(--letter-color);
-    color: white;
 }
 
 main section .card {
@@ -129,7 +134,6 @@ main section .card #profile-pic {
     align-items: center;
     gap: .3rem;
     flex-direction: row-reverse;
-    color: var();
     color: var(--letter-color);
     opacity: 0.7;
 }
@@ -140,17 +144,8 @@ main section .card #profile-pic {
 
 .profile {
     display: flex;
+    justify-content: center;
     padding: .8rem;
-}
-
-.profile button {
-    width: 130px;
-    height: 30px;
-    border: none;
-    border-radius: 10px;
-    opacity: 0.7;
-    transition: all 0.3s;
-    background-color: var(--letter-color);
 }
 
 .profile button:hover {

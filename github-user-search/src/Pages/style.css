@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+    margin-top: 1rem;
+    padding: 2rem;
+    color: #837E9F;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+form label {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+form input {
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
